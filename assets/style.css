@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    margin: 20px;
 }
 
 .row {
@@ -18,4 +19,9 @@ body {
 .nav .col {
     flex-grow: 0;
     padding: 1rem;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: #FFF;
 }
