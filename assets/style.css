@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav .col {
+    flex-grow: 0;
+    padding: 1rem;
+}
