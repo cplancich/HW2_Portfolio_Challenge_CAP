@@ -1,6 +1,36 @@
 body {
     background-color: #ffffff;
+    color: #FFF;
     margin: 20px;
+}
+
+header {
+    background-color: red;
+}
+
+.hero {
+    background-color: yellow;
+    color: black;
+}
+
+main {
+    background-color: green;
+}
+
+.about-me {
+    background-color: pink;
+}
+
+.work {
+    background-color: purple;
+}
+
+.contact {
+    background-color: orange;
+}
+
+footer {
+    background-color: blue;
 }
 
 .row {
