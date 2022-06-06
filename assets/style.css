@@ -4,23 +4,36 @@
     padding: 0;
 }
 
+:root {
+    --bg: rgb(115, 112, 132);
+}
+
 body {
-    background-color: #ffffff;
+    background-color: #000000;
     color: #FFF;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: red;
+    background-color: var(--bg);
+}
+
+header h1 {
+    margin-left: 20px;
+    align-items: center;
 }
 
 .hero {
-    background-color: yellow;
-    color: black;
+    height: 400px;
+    width: 100%;
+    background-image: url("./hero_gradient.png");
+    background-size: cover;
+    background-position: center;
 }
 
 main {
-    background-color: green;
+    padding: 10px;
 }
 
 .main-margins {
@@ -34,20 +47,14 @@ main {
     left: 40px;
 }
 
-.about-me {
-    background-color: pink;
-}
+.content {
+    background-color: var(--bg);
+    border: 3px solid white;
 
-.work {
-    background-color: purple;
-}
-
-.contact {
-    background-color: orange;
 }
 
 footer {
-    background-color: blue;
+    background-color: var(--bg);
 }
 
 .row {
