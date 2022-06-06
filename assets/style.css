@@ -24,12 +24,35 @@ header h1 {
     align-items: center;
 }
 
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav .col {
+    flex-grow: 0;
+    padding: 1rem;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: #FFF;
+}
+
 .hero {
     height: 400px;
     width: 100%;
-    background-image: url("./hero_gradient.png");
+    background-image: url("./hero_image.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 main {
@@ -55,27 +78,4 @@ main {
 
 footer {
     background-color: var(--bg);
-}
-
-.row {
-    display: flex;
-}
-
-.col {
-    flex: 1 0 0%;
-}
-
-.nav {
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav .col {
-    flex-grow: 0;
-    padding: 1rem;
-}
-
-.nav a:hover {
-    background-color: black;
-    color: #FFF;
 }
