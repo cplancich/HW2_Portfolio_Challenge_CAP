@@ -65,13 +65,26 @@ main {
     margin-right: 20px;
 }
 
-.p-position {
-    position: relative;
-    left: 40px;
-}
-
 .content {
     background-color: var(--bg);
     border: 3px solid white;
     border-radius: 5px;
+}
+
+.h-width {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.content-width {
+    max-width:80%;
+}
+
+.c-width-2 {
+    max-width:40%;
+}
+
+div a {
+    display: inline-flex;
+    justify-content: space-around;
 }
