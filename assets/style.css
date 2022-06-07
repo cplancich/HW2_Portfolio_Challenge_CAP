@@ -73,7 +73,8 @@ main {
 
 .h-width {
     flex-basis: 20%;
-    text-align: center;
+    text-align: right;
+    padding-right: 60px;
 }
 
 .content-width {
