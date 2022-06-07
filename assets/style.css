@@ -11,11 +11,12 @@
 body {
     background-color: #000000;
     color: #FFF;
-    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 header {
+    display: flex;
     background-color: var(--bg);
     align-items: center;
 }
@@ -24,68 +25,115 @@ header h1 {
     margin-left: 20px;
 }
 
-.row {
-    display: flex;
-}
+/* .row { */
+    /* display: flex;
+} */
 
 .col {
     flex: 1 0 0%;
 }
 
-.nav {
+nav {
+    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav .col {
+nav .col {
     flex-grow: 0;
     padding: 1rem;
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: black;
     color: #FFF;
 }
 
 .hero {
     height: 400px;
-    width: 100%;
+    width: 100vw;
     background-image: url("./hero_image.JPG");
     background-size: cover;
     background-position: top;
 }
 
-main {
-    padding: 10px;
-}
-
-.main-margins {
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+main{
+    margin: 0 auto;
+    max-width: 88%;
 }
 
 .content {
+    display: flex;
     background-color: var(--bg);
     border: 3px solid white;
     border-radius: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+    justify-content: space-between;
+}
+.content > div {
+    flex: 0 0 77%;
 }
 
 .h-width {
-    flex-basis: 20%;
+    flex-basis: 0 0 20%;
     text-align: right;
-    padding-right: 60px;
+    padding-right: 15px;
+    border-right: 4px solid black;
 }
 
 .content-width {
-    max-width:80%;
+    /* max-width:80%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.c-width-2 {
+.projects{
+display: flex;
+background-size: 150%;
+min-height: 150px;
+max-height: 150px;
+flex-basis: calc(50% - 1em);
+margin: 1em;
+padding: 0 0 20px 0;
+
+}
+
+.projects:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.first {
+    background-image: url('https://placekitten.com/g/700/300');
+}
+.second {
+    background-image: url('https://placekitten.com/g/350/300');
+}
+.third {
+    background-image: url('https://placekitten.com/g/350/300');
+}
+.fourth {
+    background-image: url('https://placekitten.com/g/350/300');
+}
+.fifth {
+    background-image: url('https://placekitten.com/g/350/300');
+}
+
+
+
+/* .c-width-2 {
     max-width:40%;
+} */
+
+
+
+.contact-links {
+    display:flex;
 }
 
-div a {
-    display: inline-flex;
-    justify-content: space-around;
+.contact-links a {
+    padding-right: 100px;
 }
