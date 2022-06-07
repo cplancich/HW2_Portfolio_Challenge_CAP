@@ -17,11 +17,11 @@ body {
 
 header {
     background-color: var(--bg);
+    align-items: center;
 }
 
 header h1 {
     margin-left: 20px;
-    align-items: center;
 }
 
 .row {
