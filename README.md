@@ -1,4 +1,4 @@
-#CSS Portfolio Assignment
+# CSS Portfolio Assignment
 
 This assignment proved to be a challenge, and after spending the week on it doing as much as I can, I've ended at an impasse and have decided to opt for a re-submission at a future date. 
 
