@@ -91,14 +91,13 @@ main{
 }
 
 .projects{
-display: flex;
-background-size: 150%;
-min-height: 150px;
-max-height: 150px;
-flex-basis: calc(50% - 1em);
-margin: 1em;
-padding: 0 0 20px 0;
-
+    display: flex;
+    background-size: 150%;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    margin: 1em;
+    padding: 0 0 20px 0;
 }
 
 .projects:first-child{
@@ -121,14 +120,6 @@ padding: 0 0 20px 0;
 .fifth {
     background-image: url('https://placekitten.com/g/350/300');
 }
-
-
-
-/* .c-width-2 {
-    max-width:40%;
-} */
-
-
 
 .contact-links {
     display:flex;
